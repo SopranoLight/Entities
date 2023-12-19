@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./icons/gg.svg">
+    <link rel="stylesheet" href="./index.css">
+    <title>Entities fan club</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo">
+            <a class="logo__bg" href="#" title="logo"><img class="logo__foto" src="./icons/1.jpg" alt=""></a>
+        </div>
+        <nav class="nav"><ul class="links">
+            <li><a class="link" href="#">Home</a></li>
+            <!-- <li><a class="link" href="#">Antisocial society</a></li>
+            <li><a class="link" href="#">About Antisocial</a></li>
+            <li><a class="link" href="#">Who we are</a></li> -->
+        </ul>
+        <button class="font buttonn">Entities society</button>
+        <button class="font button">About Entities</button>
+        <button class="font buttonnn">Who we are</button>
+      </nav>
+        <div class="icons__links">
+            <a href="https://discord.gg/entities" title="link" target="_blank"><img  class="icons__link" src="./icons/icons-discord-black.svg" alt=""></a>
+            <a href="https://twitter.com/Entities_Solana" title="link" target="_blank"><img  class="icons__link" src="./icons/icons-twitter-black.svg" alt=""></a>
+        </div>
+    </header>
+    <section class="main">
+        <div class="main__left"> 
+            <h1 class="main__title title">We are the Entities fan club</h1>
+            <p class="main__paragraf paragraf">Entities is going to release one of the largest collections of NFT art in 2023. The collection will include hundreds of pixelated artworks that combine the physical and digital worlds.</p>
+            <a class="main__btn btn" target="_blank" href="https://twitter.com/Entities_Solana">Join us</a>
+        </div>
+        <div class="main__right">
+            <div class="perspective-text">
+                <div class="perspective-line">
+                  <p class="anti">Entities</p>
+                  <p class="anti">society</p>
+                </div>
+                <div class="perspective-line">
+                  <p class="anti">Entities</p>
+                  <p class="anti">society</p>
+                </div>
+                <div class="perspective-line">
+                  <p class="anti">Entities</p>
+                  <p class="anti">society</p>
+                </div>
+        </div>
+  </div>
+        <canvas class="canvas" id="particles">
+        </canvas>
+
+    </section>
+    <section class="animation">
+        <div class="wraper variebles">
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+           <span class="animation__left">&nbsp;Welcome to Entities fan club &nbsp;<div class="cikle"></div></span>
+        </div>
+     </section>
+
+ <section class="mouse-efect">
+  <img class="image" src="./foto-efect/girl1.png" data-index="0" data-status="inactive"  alt="">
+  <img class="image" src="./foto-efect/2.png" data-index="1" data-status="inactive" alt="">
+  <img class="image" src="./foto-efect/3.png" data-index="2" data-status="inactive" alt="">
+  <img class="image" src="./foto-efect/4.png" data-index="3" data-status="inactive" alt="">
+  <img class="image" src="./foto-efect/5.png" data-index="4" data-status="inactive" alt="">
+  <img class="image" src="./foto-efect/6.png" data-index="5" data-status="inactive" alt="">
+  <img class="image" src="./foto-efect/7.png" data-index="6" data-status="inactive" alt="">
+  <img class="image" src="./foto-efect/8.png" data-index="7" data-status="inactive" alt="">
+  <img class="image" src="./foto-efect/9.png" data-index="8" data-status="inactive" alt="">
+  <img class="image" src="./foto-efect/10.png" data-index="9" data-status="inactive" alt="">
+  <img class="image" src="./foto-efect/11.jpg" data-index="10" data-status="inactive" alt="">
+  <img class="image" src="./foto-efect/12.png" data-index="11" data-status="inactive" alt="">
+  <img class="image" src="./foto-efect/13.png" data-index="12" data-status="inactive" alt="">
+  <img class="image" src="./foto-efect/entites14.jpg" data-index="13" data-status="inactive" alt="">
+  <img class="image" src="./foto-efect/15.png" data-index="14" data-status="inactive" alt="">
+  
+ </section>
+
+ 
+ <div id="society" class="wrapper">
+    <div class="typing-demo">
+      Entities society 
+    </div>
+</div>
+<section class="society">
+<div class="society__bg"></div>
+<div class="society__info">
+    <article class="society__article">
+        <div class="society__all-info">
+            <h3 class="society__title title">Community</h3>
+            <p class="society__paragraf paragraf">Human interaction is another essential ingredient for a fulfilled life. Discovering the people who share your passions and growing with them creates a real sense of meaning. We're building a community that looks after each other and encourages one-another to be the best they can be.</p>
+        </div>
+        <div class="gif__wrapper">
+            <img class="society__foto" src="./imges/1.gif" alt="">
+        </div>
+    </article>
+    <article class="society__article order">
+        <div class="society__all-info order_1">
+            <h3 class="society__title title">Creativity</h3>
+            <p class="society__paragraf paragraf">We believe that every human born possesses creativity. When we're 3 years old our imagination, curiosity and creativity is at an all time high. As we grow older it is educated out of us. We believe that creativity and passion is an essential ingredient for a fulfilled life.</p>
+        </div>
+        <div class="gif__wrapper">
+            <img class="society__foto" src="./imges/2.gif" alt="">
+        </div>
+    </article>
+    <article class="society__article">
+        <div class="society__all-info">
+            <h3 class="society__title title">Collaboration</h3>
+            <p class="society__paragraf paragraf">Great things happen when we work together. A true collaboration is when multiple parties combine to create something greater than the sum of its parts. Challenging each other to experiment in new ways creates unexpected results - and innovation comes from the unexpected.</p>
+        </div>
+        <div class="gif__wrapper">
+            <img class="society__foto" src="./imges/3.gif" alt="">
+        </div>
+    </article>
+</div>
+</section>
+<section id="anti" class="antisocial">
+  <div class="wrapper wrep">
+    <div class="typing-demot">
+      About Entities 
+    </div>
+  </div>
+ 
+  <div class="content-width">
+    <div class="slideshow">
+      <!-- Slideshow Items -->
+      <div class="slideshow-items">
+        <div class="item">
+          <div class="item-image-container">
+            <img class="item-image" src="./foto-efect/girl1.png" />
+          </div>
+          <!-- Staggered Header Elements -->
+          <div class="item-header">
+            <span class="vertical-part"><b>o</b></span>
+            <span class="vertical-part"><b>u</b></span>
+            <span class="vertical-part"><b>r</b></span>
+            <span class="vertical-part"><b>&nbsp</b></span>
+            <span class="vertical-part"><b>a</b></span>
+            <span class="vertical-part"><b>r</b></span>
+            <span class="vertical-part"><b>t</b></span>
+          </div>
+          <!-- Staggered Description Elements -->
+          <div class="item-description">
+            <span class="vertical-part">
+              <b>With</b>
+            </span>
+            <span class="vertical-part">
+              <b>only</b>
+            </span> 
+            <span class="vertical-part">
+              <b>999</b>
+            </span>
+            <span class="vertical-part">
+              <b>pieces</b>
+            </span> 
+            <span class="vertical-part">
+              <b>available,</b>
+            </span>
+            <span class="vertical-part">
+              <b>each</b>
+            </span> 
+            <span class="vertical-part">
+              <b>NFT</b>
+            </span>
+            <span class="vertical-part">
+              <b>becomes</b>
+            </span> 
+            <span class="vertical-part">
+              <b>a rare</b>
+            </span>
+            <span class="vertical-part">
+              <b>and</b>
+            </span> 
+            <span class="vertical-part">
+              <b>treasured</b>
+            </span>
+            <span class="vertical-part">
+              <b>glimpse</b>
+            </span> 
+            <span class="vertical-part">
+              <b>into</b>
+            </span>
+            <span class="vertical-part">
+              <b>the</b>
+            </span> 
+            <span class="vertical-part">
+              <b>spectral</b>
+            </span>
+            <span class="vertical-part">
+              <b>universe.</b>
+            </span> 
+            <span class="vertical-part">
+              <b>The</b>
+            </span>
+            <span class="vertical-part">
+              <b>limited</b>
+            </span> 
+            <span class="vertical-part">
+              <b>edition</b>
+            </span>
+            <span class="vertical-part">
+              <b>nature</b>
+            </span> 
+            <span class="vertical-part">
+              <b>of the</b>
+            </span> 
+            <span class="vertical-part">
+              <b>collection</b>
+            </span>
+            <span class="vertical-part">
+              <b>adds</b>
+            </span> 
+            <span class="vertical-part">
+              <b>a layer</b>
+            </span>
+            <span class="vertical-part">
+              <b>of exclusivity,</b>
+            </span> 
+            <span class="vertical-part">
+              <b>making</b>
+            </span>
+            <span class="vertical-part">
+              <b>every</b>
+            </span> 
+            <span class="vertical-part">
+              <b>piece</b>
+            </span>
+            <span class="vertical-part">
+              <b>a coveted</b>
+            </span> 
+            <span class="vertical-part">
+              <b>gem.</b>
+            </span>   
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-image-container">
+            <img class="item-image" src="./foto-efect/2.png" />
+          </div>
+          <!-- Staggered Header Elements -->
+          <div class="item-header">
+            <span class="vertical-part"><b>o</b></span>
+            <span class="vertical-part"><b>u</b></span>
+            <span class="vertical-part"><b>r</b></span><br>
+            <span class="vertical-part"><b>m</b></span>
+            <span class="vertical-part"><b>i</b></span>
+            <span class="vertical-part"><b>s</b></span>
+            <span class="vertical-part"><b>s</b></span>
+            <span class="vertical-part"><b>o</b></span>
+            <span class="vertical-part"><b>n</b></span>
+          </div>
+          <!-- Staggered Description Elements -->
+          <div class="item-description">
+            <span class="vertical-part">
+              <b>Our</b>
+            </span>
+            <span class="vertical-part">
+              <b>commitment</b>
+            </span>
+            <span class="vertical-part">
+              <b>to inclusivity</b>
+            </span>
+            <span class="vertical-part">
+              <b>drives</b>
+            </span>
+            <span class="vertical-part">
+              <b>our</b>
+            </span>
+            <span class="vertical-part">
+              <b>decision</b>
+            </span>
+            <span class="vertical-part">
+              <b>to offer</b>
+            </span>
+            <span class="vertical-part">
+              <b>Free</b>
+            </span>
+            <span class="vertical-part">
+              <b>Mint</b>
+            </span>
+            <span class="vertical-part">
+              <b>opportunities.</b>
+            </span>
+            <span class="vertical-part">
+              <b>By eliminating</b>
+            </span>
+            <span class="vertical-part">
+              <b>barriers,</b>
+            </span>
+            <span class="vertical-part">
+              <b>we</b>
+            </span>
+            <span class="vertical-part">
+              <b>invite</b>
+            </span>
+            <span class="vertical-part">
+              <b>a diverse</b>
+            </span>
+            <span class="vertical-part">
+              <b>audience</b>
+            </span>
+            <span class="vertical-part">
+              <b>to experience</b>
+            </span>
+            <span class="vertical-part">
+              <b>and</b>
+            </span>
+            <span class="vertical-part">
+              <b>own</b>
+            </span>
+            <span class="vertical-part">
+              <b>a piece</b>
+            </span>
+            <span class="vertical-part">
+              <b>of the</b>
+            </span>
+            <span class="vertical-part">
+              <b>spectral journey.</b>
+            </span>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-image-container">
+            <img class="item-image" src="./foto-efect/3.png" />
+          </div>
+          <!-- Staggered Header Elements -->
+          <div class="item-header">
+            <span class="vertical-part"><b>o</b></span>
+            <span class="vertical-part"><b>u</b></span>
+            <span class="vertical-part"><b>r</b></span><br>
+            <span class="vertical-part"><b>c</b></span>
+            <span class="vertical-part"><b>o</b></span>
+            <span class="vertical-part"><b>m</b></span>
+            <span class="vertical-part"><b>m</b></span>
+            <span class="vertical-part"><b>u</b></span>
+            <span class="vertical-part"><b>n</b></span>
+            <span class="vertical-part"><b>i</b></span>
+            <span class="vertical-part"><b>t</b></span>
+            <span class="vertical-part"><b>y</b></span>
+          </div>
+          <!-- Staggered Description Elements -->
+          <div class="item-description">
+            <span class="vertical-part">
+              <b>Get</b>
+            </span>
+            <span class="vertical-part">
+              <b>ready</b>
+            </span>
+            <span class="vertical-part">
+              <b>for</b>
+            </span>
+            <span class="vertical-part">
+              <b>exciting</b>
+            </span>
+            <span class="vertical-part">
+              <b>challenges</b>
+            </span>
+            <span class="vertical-part">
+              <b>that</b>
+            </span>
+            <span class="vertical-part">
+              <b>test</b>
+            </span>
+            <span class="vertical-part">
+              <b>your</b>
+            </span>
+            <span class="vertical-part">
+              <b>creativity</b>
+            </span>
+            <span class="vertical-part">
+              <b>and</b>
+            </span>
+            <span class="vertical-part">
+              <b>engagement.</b>
+            </span>
+            <span class="vertical-part">
+              <b>From</b>
+            </span>
+            <span class="vertical-part">
+              <b>artistic</b>
+            </span>
+            <span class="vertical-part">
+              <b>contests</b>
+            </span>
+            <span class="vertical-part">
+              <b>to</b>
+            </span>
+            <span class="vertical-part">
+              <b>storytelling</b>
+            </span>
+            <span class="vertical-part">
+              <b>challenges,</b>
+            </span>
+            <span class="vertical-part">
+              <b>Entities</b>
+            </span>
+            <span class="vertical-part">
+              <b>offers</b>
+            </span>
+            <span class="vertical-part">
+              <b>unique</b>
+            </span>
+            <span class="vertical-part">
+              <b>opportunities</b>
+            </span>
+            <span class="vertical-part">
+              <b>for</b>
+            </span>
+            <span class="vertical-part">
+              <b>members</b>
+            </span>
+            <span class="vertical-part">
+              <b>to showcase</b>
+            </span>
+            <span class="vertical-part">
+              <b>their</b>
+            </span>
+            <span class="vertical-part">
+              <b>skills</b>
+            </span>
+            <span class="vertical-part">
+              <b>and</b>
+            </span>
+            <span class="vertical-part">
+              <b>win</b>
+            </span>
+            <span class="vertical-part">
+              <b>exclusive</b>
+            </span>
+            <span class="vertical-part">
+              <b>perks.</b>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="controls">
+        <ul>
+          <li class="control" data-index="0"></li>
+          <li class="control" data-index="1"></li>
+          <li class="control" data-index="2"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section  id="who" class="who">
+    <div class="wrapper">
+        <div class="typing-demon">
+            Who we are
+        </div>
+    </div>
+   <section class="gellery">
+    <svg style="display: none;">
+        <defs>
+          <filter id="noise">
+            <feTurbulence
+              baseFrequency="0.7,0.8"
+              seed="0"
+              type="fractalNoise"
+              result="static"
+            >
+              <animate
+                attributeName="seed"
+                values="0;100"
+                dur="800ms"
+                repeatCount="1" 
+                begin="card.mouseenter"                           
+              />
+            </feTurbulence>
+            <feDisplacementMap in="SourceGraphic" in2="static">
+              <animate
+                attributeName="scale"
+                values="0;40;0"
+                dur="800ms"
+                repeatCount="1" 
+                begin="card.mouseenter"                           
+              />
+            </feDisplacementMap>
+          </filter>  
+        </defs>
+      </svg>
+      
+      <div id="card">
+        <img 
+          src="./foto-efect/9.png" 
+          alt="Neon sign in woods" 
+        />
+       
+      </div>
+       <div class="gellery__info">
+        <p class="gellery__paragraf paragraf">We're so excited to show you this website, it's made for art painting lovers like us, both in the digital and physical worlds.</p>
+        <p class="gellery__paragraf paragraf">We aim to create a community of art lovers where everyone can find inspiration, share their experiences and receive constructive criticism from the community. </p>
+        <p class="gellery__paragraf paragraf">We believe that art is more than just an image on a canvas. It is a language that can unite people from different countries and cultures, encouraging them to share their world of ideas and emotions.</p>
+       </div>
+   </section>
+
+</section>
+
+
+
+<footer id="footer">
+  <div id="bubble-wrapper">
+  
+</div>
+
+  <div id="footer-content">
+    <div class="footer-section">
+      <h3 class="footer-section-title">General</h3>
+      <div class="footer-section-links">
+        <a href="#society" >Entities society</a>
+        <a href="#anti">About Entities</a>
+        <a href="#who" >Who we are</a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3 class="footer-section-title">Social</h3>
+      <div class="footer-section-links">
+        <a href="https://twitter.com/Entities_Solana" target="_blank">Twitter</a>
+        <a href="https://discord.gg/entities" target="_blank">Discord</a>
+        
+      </div>
+    </div>
+    <div class="footer-section fooot">
+      <!-- <h3 class="footer-section-title made">Made by <a href="">SopranoLight</a></h3> -->
+      <div class="footer-section-links">
+        
+          <h3 class="footer-section-title made">Made by <a class="soprano" target="_blank" href="https://twitter.com/SopranoL1ght">SopranoL1ght</a></h3>
+       
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="./js-efect-main.js"></script>
+<script src="./index.js"></script>
+<script src="./js-efect.js"></script>
+<script src="./js-footer.js"></script>
+</body>
+</html>
